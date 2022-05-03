@@ -1,0 +1,125 @@
+body{
+	margin:  0;
+	padding:  0;
+	font-family: arial, verdana;
+	color:  #ccc;
+	background-color: #000;
+	background-image:  url(../img/fundoTelaA.jpg);
+	background-attachment: fixed;
+	backgorund-size:  cover;
+
+}
+
+#container{
+	margin: auto;
+	width: 900px;
+	border: 10px solid #000;
+	background-color: rgba(0,0,0, 64%);
+	border-radius: 0px 20px 20px 0px;
+	padding: 30;
+}
+
+.banner{
+	width: 100%;
+	border:  5px solid #fff;
+	border-radius:  0 20px 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:tahoma;
+}
+
+h1{
+	font-size: 25px;
+	color: tomato;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px dashed red;
+}
+
+h2{
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+h3{
+	font-size: 16px;
+	color: rgb(255 255 0 / 28%);
+	background-color: #000;
+}
+
+hr{display: nome;}
+
+p{
+	text-indent: 20px;
+	text-align: justify;
+	line-height: 23px;
+}
+
+p span{
+    background-color: yellow;
+    color: tomato;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul, ol{
+	border: 3px solid #333;
+	background-color: #000;
+	margin: 30px;
+	padding: 30px;
+	border-radius: 0 10px 0 10px;
+}
+
+li, li a{
+	padding: 10px;
+	color: #666;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+li a:hover{
+	background-color: ##ffff004a;
+	color: tomato;
+	border-radius: 21px;
+}
+
+table{
+	border: none;
+	margin: auto;
+
+}
+
+table tr td{
+	border: none;
+}
+
+table img{
+	border:  10px solid #000;
+	border-radius: 10%;
+
+}
+
+table img:hover{
+	border:  10px #ffff004a #000;
+	cursor: hand;
+
+}
+
+table span{
+	font-size: 12px;
+	background-color: tomato;
+	border-radius: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #fff;
+	
+
+}
